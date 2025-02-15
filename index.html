@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro Lugar Especial ❤️</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsYRUIEYECGy5Cd0Z2OIxISgK-dRsaLik&callback=initMap" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="initMap()">
+    <header class="header">
+        <h1 class="title">Nuestro Lugar Especial ❤️</h1>
+        <p class="subtitle">Donde comenzó nuestra historia</p>
+    </header>
+
+    <main class="main-content">
+        <div class="map-container" style="width: 100%; height: 400px;">
+            <div id="map" style="width: 100%; height: 400px;"></div>
+        </div>
+
+        <div class="info-card">
+            <div class="date">2 de Enero, 2024</div>
+            <p class="message">
+                "En este rincón especial de Alcantarilla, nuestros caminos se cruzaron y nuestras vidas se entrelazaron para caminar juntos."
+            </p>
+            <div class="details">
+                <h3>Restaurante Ni Hao</h3>
+                <p>Entrevías, Alcantarilla</p>
+                <p>Murcia, España</p>
+            </div>
+        </div>
+
+        <div class="photo-gallery" id="photo-gallery">
+            <img src="IMG_1948.jpg" alt="Foto 1" loading="lazy">
+            <img src="IMG_2173.jpg" alt="Foto 2" loading="lazy">
+            <img src="IMG_2300.jpg" alt="Foto 3" loading="lazy">
+            <img src="IMG_2359.jpg" alt="Foto 4" loading="lazy">
+            <img src="IMG_2468.jpg" alt="Foto 5" loading="lazy">
+            <img src="IMG_2754.jpg" alt="Foto 6" loading="lazy">
+            <img src="IMG_4084.JPG" alt="Foto 7" loading="lazy">
+            <img src="IMG_4132.jpg" alt="Foto 8" loading="lazy">
+            <img src="IMG_4233.jpg" alt="Foto 9" loading="lazy">
+            <img src="IMG_6912.jpg" alt="Foto 10" loading="lazy">
+            <img src="IMG_7451.jpg" alt="Foto 11" loading="lazy">
+            <img src="IMG_5237.jpg" alt="Foto 12" loading="lazy">
+        </div>
+            
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ll8ETTws_0I?si=PJOvobW4hs9drG1J&amp;start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="names">Gerardo & María❤️ </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
